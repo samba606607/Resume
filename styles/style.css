@@ -1,0 +1,35 @@
+.main{
+  display:flex;
+
+  flex-direction: row;
+  justify-content: center
+
+}
+.child1{
+  width: 30%;
+  background-color: orange;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px blue;
+  padding: 2%;
+  margin: 2%;
+}
+.child2{
+  width: 70%;
+  box-shadow: 4px 4px 4px 4px blue;
+  background-color: red;
+  border-radius: 5px;
+  border: 3px solid green;
+  padding: 2%;
+  margin: 2%;
+}
+h1{
+  text-align: center;
+}
+img{
+  display: block;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30%;
+}
