@@ -33,6 +33,16 @@ img{
   margin-right: auto;
   border-radius: 30%;
 }
+table{
+  width: 90%;
+  box-shadow: :3px 3px 3px red;
+}
+td{
+  padding: 1%;
+}
+tr:nth-child(even){
+  background-color: orange;
+}
 
 @media only screen and (min-width:320px) and (max-width:480px) {
   a{
